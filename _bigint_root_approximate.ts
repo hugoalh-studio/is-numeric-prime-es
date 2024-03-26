@@ -5,7 +5,7 @@ export interface BigIntRootApproximateResult {
 /**
  * Return the root of the big integer, approximate. From https://stackoverflow.com/a/64190462.
  * @param {bigint} radicand Radicand.
- * @param {bigint} index Index.
+ * @param {bigint} [index=2n] Index.
  * @returns {BigIntRootApproximateResult} Root, approximate.
  */
 export function bigintRootApproximate(radicand: bigint, index = 2n): BigIntRootApproximateResult {
