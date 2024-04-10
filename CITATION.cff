@@ -1,13 +1,17 @@
 # yaml-language-server: $schema=https://citation-file-format.github.io/1.2.0/schema.json
 cff-version: "1.2.0"
-title: "Is Numeric Prime (TypeScript)"
+title: "Is Numeric Prime (ES)"
 message: "If you use this software, please cite it using the metadata from this file."
 type: "software"
 authors:
   - name: "hugoalh Studio"
-repository-code: "https://github.com/hugoalh-studio/is-numeric-prime-ts"
+repository-code: "https://github.com/hugoalh-studio/is-numeric-prime-es"
 keywords:
+  - "es"
   - "is"
+  - "javascript"
+  - "js"
+  - "modulejs"
   - "numeric"
   - "prime"
   - "ts"
