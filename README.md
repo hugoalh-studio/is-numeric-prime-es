@@ -75,7 +75,7 @@ An ES (JavaScript & TypeScript) module to determine whether the numeric is prime
 
 *This module does not require any permission.*
 
-## 🧩 API
+## 🧩 APIs
 
 - ```ts
   function isNumericPrime(item: bigint | number): boolean;
@@ -88,7 +88,7 @@ An ES (JavaScript & TypeScript) module to determine whether the numeric is prime
 > - [Deno CLI `deno doc`](https://deno.land/manual/tools/documentation_generator)
 > - [JSR](https://jsr.io/@hugoalh/is-numeric-prime)
 
-## ✍️ Example
+## ✍️ Examples
 
 - ```ts
   isNumericPrime(9876);
