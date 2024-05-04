@@ -1,4 +1,4 @@
-import { assertEquals } from "STD/assert/assert_equals.ts";
+import { assertEquals } from "STD/assert/assert-equals";
 import { isNumericPrime } from "./mod.ts";
 Deno.test("Number False 1", { permissions: "none" }, () => {
 	assertEquals(isNumericPrime(9876), false);
