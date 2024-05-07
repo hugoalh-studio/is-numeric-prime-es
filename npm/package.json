@@ -1,6 +1,6 @@
 {
 	"name": "@hugoalh/is-numeric-prime",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A module to determine whether the numeric is prime.",
 	"keywords": [
 		"is",
@@ -36,6 +36,7 @@
 	"scripts": {
 		"build": "tsc"
 	},
+	"dependencies": { },
 	"devDependencies": {
 		"typescript": "^5.4.5"
 	},

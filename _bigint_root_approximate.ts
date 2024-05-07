@@ -10,10 +10,10 @@ export interface BigIntRootApproximateResult {
  */
 export function bigintRootApproximate(radicand: bigint, index = 2n): BigIntRootApproximateResult {
 	if (!(radicand >= 0n)) {
-		throw new RangeError(`Radicand is not a bigint which is positive!`);
+		throw new RangeError(`\`${radicand}\` (argument \`radicand\`) is not a bigint which is positive!`);
 	}
 	if (!(index > 0n)) {
-		throw new RangeError(`Index is not a bigint which is > 0!`);
+		throw new RangeError(`\`${index}\` (argument \`index\`) is not a bigint which is > 0!`);
 	}
 	if (
 		radicand === 0n ||

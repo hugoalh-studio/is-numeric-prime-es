@@ -21,32 +21,18 @@ An ES (JavaScript & TypeScript) module to determine whether the numeric is prime
 
 > **ℹ️ Note**
 >
-> It is possible to use this module in other ways which not listed in here, however it is not officially supported.
+> It is possible to use this module in other methods/ways which not listed in here, however it is not officially supported.
 
 ### #️⃣ Registries Identifier
 
-<table><tbody align="left">
-<tr>
-<th>JSR</th>
-<td width="100%">
-
-```
-@hugoalh/is-numeric-prime
-```
-
-</td>
-</tr>
-<tr>
-<th>NPM</th>
-<td width="100%">
-
-```
-@hugoalh/is-numeric-prime
-```
-
-</td>
-</tr>
-</tbody></table>
+- **JSR:**
+  ```
+  @hugoalh/is-numeric-prime
+  ```
+- **NPM:**
+  ```
+  @hugoalh/is-numeric-prime
+  ```
 
 > **ℹ️ Note**
 >
@@ -55,7 +41,7 @@ An ES (JavaScript & TypeScript) module to determine whether the numeric is prime
 
 ### #️⃣ Remote Import Paths
 
-- Via GitHub Raw (Require Tag)
+- **GitHub Raw:** (Require Tag)
   ```
   https://raw.githubusercontent.com/hugoalh-studio/is-numeric-prime-es/${Tag}/mod.ts
   ```
