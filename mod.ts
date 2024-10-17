@@ -3,6 +3,26 @@ import { bigintRootApproximate } from "./_bigint_root_approximate.ts";
  * Determine whether the numeric is prime.
  * @param {bigint | number} item Item that need to determine.
  * @returns {boolean} Determine result.
+ * @example 1
+ * ```ts
+ * isNumericPrime(9876);
+ * //=> false
+ * ```
+ * @example 2
+ * ```ts
+ * isNumericPrime(8n);
+ * //=> false
+ * ```
+ * @example 3
+ * ```ts
+ * isNumericPrime(17);
+ * //=> true
+ * ```
+ * @example 4
+ * ```ts
+ * isNumericPrime(23n);
+ * //=> true
+ * ```
  */
 export function isNumericPrime(item: bigint | number): boolean {
 	let itemBigInteger: bigint;
