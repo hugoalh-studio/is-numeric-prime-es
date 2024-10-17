@@ -1,4 +1,4 @@
-import { assertEquals } from "STD/assert/assert-equals";
+import { assertEquals } from "STD/assert/equals";
 import { randomInt } from "node:crypto";
 import { bigintRootApproximate } from "./_bigint_root_approximate.ts";
 Deno.test("Main", { permissions: "none" }, async (t) => {
