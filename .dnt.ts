@@ -19,15 +19,15 @@ await invokeDenoNodeJSTransformer({
 			"numeric",
 			"prime"
 		],
-		homepage: "https://github.com/hugoalh-studio/is-numeric-prime-es#readme",
+		homepage: "https://github.com/hugoalh/is-numeric-prime-es#readme",
 		bugs: {
-			url: "https://github.com/hugoalh-studio/is-numeric-prime-es/issues"
+			url: "https://github.com/hugoalh/is-numeric-prime-es/issues"
 		},
 		license: "MIT",
 		author: "hugoalh",
 		repository: {
 			type: "git",
-			url: "git+https://github.com/hugoalh-studio/is-numeric-prime-es.git"
+			url: "git+https://github.com/hugoalh/is-numeric-prime-es.git"
 		},
 		scripts: {
 		},
