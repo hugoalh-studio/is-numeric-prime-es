@@ -18,3 +18,6 @@ Deno.test("9876543210123456789", { permissions: "none" }, () => {
 Deno.test("98765432100123456789", { permissions: "none" }, () => {
 	assertEquals(isNumericPrime(98765432100123456789n), false);
 });
+Deno.test("98765432100123456789987654321001234567891", { permissions: "none" }, () => {
+	assertEquals(isNumericPrime(98765432100123456789987654321001234567891n), false);
+});

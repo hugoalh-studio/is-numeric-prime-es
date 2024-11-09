@@ -17,3 +17,6 @@ Deno.bench("9876543210123456789", { permissions: "none" }, () => {
 Deno.bench("98765432100123456789", { permissions: "none" }, () => {
 	isNumericPrime(98765432100123456789n);
 });
+Deno.bench("98765432100123456789987654321001234567891", { permissions: "none" }, () => {
+	isNumericPrime(98765432100123456789987654321001234567891n);
+});
